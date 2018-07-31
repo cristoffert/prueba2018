@@ -1,0 +1,39 @@
+/*resetea los margenes y paddings de todos los elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+}
+.box {
+      width: 400px;
+      height: auto;
+      background: rgba(150, 150,150,0.5);
+      color: white;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 5px;
+}
+input {
+    width: 100%;
+    color: black;
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn-success {
+    margin-top: 15px;
+    padding: 15px;
+}
+select{
+    width: 100%;
+    color: darkgray;
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
